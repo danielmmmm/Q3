@@ -1,0 +1,11 @@
+SHA1 of fflogger_event_store.sql.empty: 5e9026b8a304298b6b376ffdc0cafd9b2d73dcff
+
+
+
+To make your own, open fflogger_event_store.sql and execute the following sqlite commands:
+
+UPDATE "main"."sqlite_sequence" SET "seq"='0' WHERE "name"='batch';
+UPDATE "main"."sqlite_sequence" SET "seq"='0' WHERE "name"='event';
+DELETE FROM 'batch';
+DELETE FROM 'event';
+VACUUM;
