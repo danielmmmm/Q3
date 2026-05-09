@@ -12,8 +12,8 @@ adb shell oculuspreferences --setc
 ```
 
 |Preference|Default|New|Description|Comments|
-||value|value|||
 |:-|:-:|:-:|:-|:-|
+||value|value|||
 |`app_auto_updates_enabled`|0|   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
