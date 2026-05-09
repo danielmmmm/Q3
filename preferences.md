@@ -12,4 +12,3 @@ adb shell oculuspreferences --setc
 |<sub>`debug_vr_shell_input_visualizations`</sub>|0|1|Immediately|Shows green markers for hand scelletons|Markers are shown on top and not occluded by controllers|
 
 
-
