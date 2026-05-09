@@ -1,4 +1,7 @@
-/data/system_de/0/accounts_de.db
+
+/data/oculus/preferences/system.db
+/data/oculus/preferences/user0.db
+
 
 adb root
 adb shell oculuspreferences --setc 
